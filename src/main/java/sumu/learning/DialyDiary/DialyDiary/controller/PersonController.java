@@ -43,6 +43,6 @@ public class PersonController {
 	@GetMapping("/getByAge/{age}")
 	public List<Person> getPersonByAge(@PathVariable int age) {
 		return personService.getPersonByAge(age);
-	}
+	} 
 	
 }
